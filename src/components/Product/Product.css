@@ -1,0 +1,52 @@
+.image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 140
+}
+
+.card {
+    border: 1px solid #000;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: fit-content;
+    padding: 5px 20px;
+    max-width: 300px;
+    border-radius: 5px;
+
+}
+
+.card:hover {
+    border: 1px solid var(--red);
+    color: var(--red);
+}
+
+.name {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.store {
+    background-color: var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    text-transform: lowercase;
+}
+
+.price {
+    color: var(--red);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    padding: 5px 0px;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}

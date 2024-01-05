@@ -1,0 +1,48 @@
+.menu input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.menu {
+    padding: 50px 50px;
+    position: fixed;
+    z-index: 999;
+    width: 1200px;
+    margin-bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ .search-label {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+  
+input[type="search"] {
+    padding-right: 30px;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 10px;
+}
+  
+svg {
+    fill: #000;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+}
+button{
+    position: absolute;
+    right: 1px;
+    background: none;
+    border: 0;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
