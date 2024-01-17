@@ -1,29 +1,20 @@
-import usePagination from '@/hooks/usePagination'
+import styles from './Pagination.module.css'
 
 const Pagination = () => {
-  const { page, setPage, totalPages } = usePagination()
-
-  const handlePageChange = (page: number) => {
-    setPage(page)
-  }
-
   return (
-        <div className="pagination">
+        <div className={styles.pagination}>
         <button
-            className="pagination__button"
-            onClick={() => { handlePageChange(page - 1) }}
-            disabled={page === 1}
+            className={styles.button}
+
         >
             Previous
         </button>
-        <span className="pagination__page">{page}</span>
-        <button
-            className="pagination__button"
-            onClick={() => { handlePageChange(page + 1) }}
-            disabled={page === totalPages}
-        >
+        <span className={styles.page}>1</span>
+        <button className={styles.button}>
             Next
         </button>
         </div>
   )
 }
+
+export default Pagination

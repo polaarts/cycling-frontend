@@ -7,4 +7,13 @@ interface Product {
   url: string
 }
 
+interface Store {
+  id: number
+  name: string
+  url: string
+  logo: string
+}
+
 type Products = Product[]
+
+type Stores = Store[]

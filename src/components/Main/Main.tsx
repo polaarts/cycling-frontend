@@ -1,17 +1,18 @@
 import ProductList from '../ProductList/ProductList'
-import Menu from '../Menu/Menu'
 import Footer from '../Footer/Footer'
 import { getProducts } from '@/services/products'
-import './Main.css'
+import main from './Main.module.css'
+import Header from '../Header/Header'
 
 const Main = async () => {
   const result = await getProducts(1, 20)
+
   const products = result.products
   return (
     <main>
-      <div className='container'>
+      <div className={main.container}>
+          <Header/>
         <div className='grid'>
-          <Menu/>
           <ProductList products={products}/>
         </div>
       </div>

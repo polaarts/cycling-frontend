@@ -1,0 +1,14 @@
+.store {
+    background-color: #e6e5e5;
+    padding: 5px 5px;
+    color : black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.stores {
+    padding-top: 15px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}

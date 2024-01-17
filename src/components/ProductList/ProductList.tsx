@@ -1,10 +1,10 @@
 import React from 'react'
 import Product from '../Product/Product'
-import './ProductList.css'
+import styles from './ProductList.module.css'
 
 const ProductList = async ({ products }: { products: Products }) => {
   return (
-    <div className='products'>
+    <div className={styles.products}>
     {products.map((product: Product) => (
         <Product {...product} key={product.id} />
     ))}

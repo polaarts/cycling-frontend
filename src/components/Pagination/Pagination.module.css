@@ -1,0 +1,14 @@
+.button {
+    background: var(--red);
+	color: white;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.page {
+    margin: 0 10px;
+}

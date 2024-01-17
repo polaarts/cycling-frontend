@@ -4,23 +4,13 @@
     width: 100%;
 }
 
-.menu {
-    padding: 50px 50px;
-    position: fixed;
-    z-index: 999;
-    width: 1200px;
-    margin-bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
- .search-label {
+ .search_label {
     position: relative;
     display: flex;
     align-items: center;
 }
   
-input[type="search"] {
+.searchbar {
     padding-right: 30px;
     width: 100%;
     border: 1px solid #000;
@@ -28,14 +18,14 @@ input[type="search"] {
     padding: 10px;
 }
   
-svg {
+.svg {
     fill: #000;
     cursor: pointer;
     width: 20px;
     height: 20px;
     padding: 15px;
 }
-button{
+.search_button{
     position: absolute;
     right: 1px;
     background: none;
