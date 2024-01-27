@@ -1,10 +1,10 @@
 import styles from './StoreList.module.css'
 
-const StoresList = async ({ stores }: { stores: Stores }) => {
+const StoresList = ({ stores }: { stores: Stores }) => {
   return (
     <div className={styles.stores}>
     {stores.map((store: Store) => (
-        <span className={styles.store} key={store.id}>{store.name}</span>
+        <span className={styles.store} key={store.name}>{store.name}</span>
     ))}
     </div>
   )

@@ -8,7 +8,6 @@ interface Product {
 }
 
 interface Store {
-  id: number
   name: string
   url: string
   logo: string

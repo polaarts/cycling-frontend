@@ -8,7 +8,7 @@ const Search = () => {
   const router = useRouter()
   const [searchTerm, setSearchTerm] = useState('')
   const handleSearch = () => {
-    router.push('/hola')
+    router.push('/search?')
   }
 
   const handleInputChange = (event: any) => { setSearchTerm(event.target.value) }

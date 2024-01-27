@@ -1,6 +1,32 @@
 .container {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px; 
     box-sizing: border-box; 
+  }
+
+  .button {
+    color: white;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+      border-radius: 5px;
+    padding-top: 5px;
+  }
+  
+  .button > svg {
+    color: black;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .page {
+      margin: 5px 10px;
+  }
+  
+  .pagination {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
   }

@@ -29,6 +29,7 @@
 .name {
     text-transform: uppercase;
     padding-bottom: 30px;
+    font-size: 16px;
 }
 
 .store {
